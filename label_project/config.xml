@@ -1,0 +1,10 @@
+
+<View>
+  <Header value="Оцените тональность заголовка"/>
+  <Text name="text" value="$title"/>
+  <Choices name="sentiment" toName="text" choice="single">
+    <Choice value="positive"/>
+    <Choice value="neutral"/>
+    <Choice value="negative"/>
+  </Choices>
+</View>
