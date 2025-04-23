@@ -17,3 +17,13 @@
 
 Задача 6.
 Оценить эффективность обученной модели на тестовом датасете. Используйте подходящие метрики оценки. Интерпретируйте результаты и проанализируйте эффективность модели в решении задачи разметки.
+
+Для выполнения заданий используется датасет fontanka.csv
+
+import kagglehub
+
+# Download latest version
+
+path = kagglehub.dataset_download("marialevchenko/news-dataset-from-fontanka-ru-2021-2023")
+
+print("Path to dataset files:", path)
