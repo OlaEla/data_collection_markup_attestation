@@ -1,3 +1,6 @@
 combined_labeled_dataset.csv
 fontanka.csv
 labeled_rule_based.csv
+
+.DS_Store
+EOL
